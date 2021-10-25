@@ -7,7 +7,7 @@ client = Client(account_sid, auth_token)
 call = client.calls.create(
     to="+918433120646",
     from_="+12512921406",
-    url="http://demo.twilio.com/docs/voice.xml"
+    url="file:///C:/Users/Nishant/OneDrive/Desktop/Work/gsm%20ckt/.wav%20audio/intro.mp3"
 )
 
 print(call.sid)
